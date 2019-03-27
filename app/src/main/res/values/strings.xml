@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flashcardz</string>
+    <string name="textview">TextView</string>
+    <string name="who_was_the_first_prime_minister_of_india">Who was the first Prime Minister of India?</string>
+    <string name="jawaharlal_nehru">Jawaharlal Nehru</string>
+    <string name="plus">plus</string>
+    <string name="enter_your_question">Enter your question</string>
+    <string name="save">Save</string>
+    <string name="enter_the_answer">Enter the answer</string>
+</resources>

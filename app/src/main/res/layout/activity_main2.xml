@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddb995"
+    tools:context=".Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/image_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/plus"
+        android:scaleType="center"
+        android:src="@drawable/ic_android_x" />
+
+    <ImageView
+        android:id="@+id/image_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/plus"
+        android:scaleType="center"
+        android:src="@drawable/ic_android_save" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:hint="@string/enter_your_question"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:ems="10"
+        android:hint="@string/enter_the_answer"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/image_save"
+        android:layout_marginStart="112dp"
+        android:fontFamily="monospace"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

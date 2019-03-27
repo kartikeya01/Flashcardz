@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddb995"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="341dp"
+        android:layout_height="177dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:shape="rectangle"
+        android:text="@string/who_was_the_first_prime_minister_of_india"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F2FFFA"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:background="@drawable/border"
+        android:text="@string/jawaharlal_nehru"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/plus"
+        android:scaleType="center"
+        android:src="@drawable/ic_android_plus" />
+
+</RelativeLayout>
