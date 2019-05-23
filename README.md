@@ -1,3 +1,3 @@
 ## Demo
 
-![Alt Text](![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif))
+![Alt Text](https://media.giphy.com/media/LpWUEh3U9WG2Ji2wr5/giphy.gif)
